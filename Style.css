@@ -1,0 +1,92 @@
+body{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  padding: 0%;
+  margin: 0%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 100%), url(/Images/hero-image-1.jpg);
+background-size: cover;
+}
+
+.page{
+  height: 100vh;
+text-align: center;
+align-self: center;
+}
+
+header{
+  display: flex;
+justify-content: space-between;
+padding: 2% 5%;
+align-items: center;
+}
+
+/* Fonts */
+
+h1{
+  margin: 0;
+}
+
+/* Buttons */
+
+.btn {
+  background-color: rgba(0, 0, 0, 0.735); /* Blue background */
+  border: none; /* Remove borders */
+  border-radius: 100px; 
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.911);
+}
+
+/* Timer Box */
+.timer{
+  height: 70vh;
+  padding: 40px 0px;
+  margin-right: 35%;
+  margin-left: 35%;
+align-self: center;
+justify-self: center;
+background: rgba(17, 17, 17, 0.5);
+backdrop-filter: blur(15px);
+border-radius: 50px;
+}
+
+.field-title{
+  font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: rgba(255, 255, 255, 0.5);
+}
+
+.time-counter{
+  font-style: normal;
+font-weight: 500;
+font-size: 120px;
+letter-spacing: -0.08em;
+color: #FFFFFF;
+}
+
+.breaks-tab{
+  margin-bottom: 40px;
+}
+
+.start-btn{
+  border: none; /* Remove borders */
+  border-radius: 1000px; 
+  color: white; /* White text */
+  padding: 20px 30px; /* Some padding */
+  font-size:40px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  background: #40CD75;
+border-radius: 1000px;
+margin-top: 50px;
+}
+
